@@ -1,0 +1,55 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: #446789;
+  width: 100vw;
+  text-align: center;
+
+}
+.items {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  width: 30%;
+  margin: 5%;
+  text-align: center;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+
+.Right {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+ 
+
+}
+
+.Right > div {
+  display: flex;
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+
+
+
+
